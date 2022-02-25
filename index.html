@@ -1,0 +1,1100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="msapplication-TileColor" content="#545BCD">
+    <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#545BCD">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Shobakijoisar.web.app">
+    <meta property="og:site_name" content="Mohammed Alshobaki">
+    <meta property="og:title" content="Mohammed Alshobaki Portfolio">
+    <meta property="og:description" content="Mohammed Alshobaki Project And Work Experience..">
+    <meta property="og:image" content="https://Shobakijoisar.web.app/images/Shobakijoisar.jpg" />
+    <meta property="og:image:alt" content="Mohammed Alshobaki" />
+
+    <meta name="author" content="Mohammed Alshobaki" />
+    <meta name="description" content="don't be the same be a better">
+
+    <!-- You have to mention the card type. -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@joisarShobaki">
+    <meta name="twitter:creator" content="@joisarShobaki">
+    <meta name="twitter:title" content="Mohammed Alshobaki | Full Stack Developer">
+    <meta name="twitter:description" content="Mohammed Alshobaki Project And Work Experience..">
+    <meta name="twitter:image" content="https://Shobakijoisar.web.app/images/Shobakijoisar.jpg" />
+
+    <title>Mohammed Alshobaki | Full Stack Developer</title>
+
+
+    <!-- update the version number as needed -->
+    <script defer src="./js/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="./js/firebase-auth.js"></script>
+    <script defer src="./js/firebase-database.js"></script>
+    <script defer src="./js/firebase-messaging.js"></script>
+    <script defer src="./js/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="./init.js"></script>
+    <link rel="shortcut icon" href="icon/favicon.ico">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobrise.css"/>
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/colors/default.css" id="color-opt"/>-->
+    <link rel="stylesheet" type="text/css" href="css/plugin.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/app.min.css"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153547612-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-153547612-1');
+    </script>
+</head>
+<body>
+
+<!--Navbar Start-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+    <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo text-uppercase" href="">
+            Shobaki
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+                <li class="nav-item active">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>-->
+                <!--<li class="nav-item">
+                    <a href="#testimonial" class="nav-link">Testimonial</a>
+                </li>-->
+               <!-- <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>-->
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- home start -->
+<section class="bg-home bg-gradient" id="home">
+    <div class="home-center">
+        <div class="home-desc-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 mt-5">
+                        <div class="home-title text-center">
+                           <!-- <h5 class="sub-title text-light mb-3">
+                                Mohammed Alshobaki                            </h5>-->
+                            <h1 class="display-3 text-white title">Mohammed Alshobaki</h1>
+                           <!-- <h1 class="display-3">
+                                        <span class="element text-white"
+                                              data-elements=" Web Designer">
+                                        </span>
+                            </h1>-->
+
+                            <p class="text-white-50 mx-auto para-desc">
+                                I'm full stack developer and focused on crafting clean  & user‑friendly experiences.
+                            </p>
+                            <!--<div class="mt-4 pt-2">
+                                <a href="#" class="btn btn-outline btn-round">Download CV <i
+                                        class="mdi mdi-download ml-2"></i></a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- home end -->
+
+<!-- about start -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center mb-4 pb-2">
+                    <div class="mb-5">
+                        <i class="mdi mdi-account-settings h1 text-muted"></i>
+                    </div>
+                    <h3>About me</h3>
+                    <p class="text-muted mx-auto mb-0 para-desc">
+                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 mt-4 pt-2">
+            <div>
+                <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="story-tab" data-toggle="tab" href="#story" role="tab"
+                           aria-controls="story" aria-selected="true">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab"
+                           aria-controls="skill" aria-selected="false">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab"
+                           aria-controls="resume" aria-selected="false">Resume</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="story" role="tabpanel" aria-labelledby="story-tab">
+                        <div class="text-center">
+                            <div class="about-img mt-5 mb-5">
+                                <img src="shobakiimg.png" alt="Mohammed Alshobaki"
+                                    class="img-fluid mx-auto d-block rounded-circle">
+                            </div>
+                            <h2 class="mb-3">
+                                Mohammed Alshobaki                                <small class="text-muted">
+                                    - Full Stack Developer
+                                </small>
+                            </h2>
+                            <p class="text-muted">
+                                I’m Jordanian full stack  developer with 3 years of experience.
+                                I’m a passionate learner and I have a love story with problem solving,
+                                currently interested in Software Engineering, Laravel Backend and ReactJS.
+                                I'm currently living in Amman, Jordan.
+                                My favorite development stack at the moment is Laravel, PHP, ReactJS, Mysql, Wordpress and Javascript.
+                                Try to keep things DRY and well-documented and when possible.
+                            </p>
+                            <p class="text-muted">
+                                 I believe in not only creating beautiful software but also reliable and
+                                 reflect the client's brand and that is easy to use so that it does not distract the
+                                 a user experience.
+                                 I invest enormously in bettering myself, my skills,
+                                 my character, and my outlook on the world.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="skill mt-5">
+                                    <div>
+                                        <p class="text-muted text-uppercase mb-2">
+                                            PHP
+                                        </p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-94">
+                                                <div class="progress-value text-muted">94%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Html</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-90">
+                                                <div class="progress-value text-muted">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Css</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-80">
+                                                <div class="progress-value text-muted">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Javascript</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-72">
+                                                <div class="progress-value text-muted">72%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Bootstrap</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-84">
+                                                <div class="progress-value text-muted">84%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Linux</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-60">
+                                                <div class="progress-value text-muted">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Nginx</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-74">
+                                                <div class="progress-value text-muted">74%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="skill">
+
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Laravel</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-85">
+                                                <div class="progress-value text-muted">85%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Reactjs</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-70">
+                                                <div class="progress-value text-muted">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Nova</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-50">
+                                                <div class="progress-value text-muted">55%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Mysql</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-89">
+                                                <div class="progress-value text-muted">89%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Problem Solving</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-68">
+                                                <div class="progress-value text-muted">68%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">Data Scrapping</p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-75">
+                                                <div class="progress-value text-muted">75%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5">
+                                        <p class="text-muted text-uppercase mb-2">MongoDb </p>
+                                        <div class="progress">
+                                            <div class="progress-bar w-50">
+                                                <div class="progress-value text-muted">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="resume" role="tabpanel" aria-labelledby="resume-tab">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="experiences">
+                                    <div class="mt-5 mb-5">
+                                        <h5 class="font-weight-bold text-center text-custom">Experiences</h5>
+                                        <hr>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h6>SDE at wewebit</h6>
+                                            <p class="text-muted"> Jan 2022 – Present </p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                        <div>
+                                            <h6>Software Engineer at jodevs</h6>
+                                            <p class="text-muted"> Oct 2019 – Present (Part time)</p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                        <div>
+                                            <h6>Backend Laravel Developer at Abc Programmer</h6>
+                                            <p class="text-muted"> Mar 2019 – Oct 2020 </p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                        <div>
+                                            <h6>Junior Web Developer at CSCbeyon</h6>
+                                            <p class="text-muted">Jul 2018 – Mar 2019 </p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                        <!--<div>
+                                            <h6>Web Designer</h6>
+                                            <p class="text-muted">Phoenixolutions, 2015 - 2017</p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="education">
+                                    <div class="mt-5 mb-5">
+                                        <h5 class="font-weight-bold text-center text-custom">Education</h5>
+                                        <hr>
+                                    </div>
+                                    <div>
+                                        
+                                        <div>
+                                            <h6>Bachelor of Computer Science</h6>
+                                            <p class="text-muted">AABU, 2014 - 2018</p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                        <div>
+                                            <h6>Higher Secondary School</h6>
+                                            <p class="text-muted">Habil School, 2012 - 2014</p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+
+                                        <div>
+                                            <h6>My CV</h6>
+                                            <p class="text-muted"><a download class="nav-link" href="./mohammed-alshobaki-CVup.pdf">Dwonload it</a></p>
+                                            <hr class="mt-4 mb-4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about end -->
+
+<!-- services start -->
+<!-- <section class="section bg-light" id="services">
+     <div class="container">
+         <div class="row justify-content-center">
+             <div class="col-lg-6">
+                 <div class="section-title text-center mb-4 pb-2">
+                     <div class="mb-5">
+                         <i class="mdi mdi-all-inclusive h1 text-muted"></i>
+                     </div>
+                     <h3>My Services</h3>
+                     <p class="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Digital Design</h5>
+                             <p class="text-muted mb-0">There are many variations of passages of Lorem available, but the majority have suffered.</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-tablet-ipad display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Unlimited Colors</h5>
+                             <p class="text-muted mb-0">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-palette display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Easy to Customize</h5>
+                             <p class="text-muted mb-0">All the Lorem Ipsum generators on the Internet to repeat predefined chunks as necessary.</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-settings display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Branding</h5>
+                             <p class="text-muted mb-0">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-security display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Seo Marketing</h5>
+                             <p class="text-muted mb-0">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-chart-arc display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4">
+                 <div class="services-flip-box mt-4 pt-2">
+                     <div class="services-front-flip bg-white text-center p-5">
+                         <div class="services-desc">
+                             <h5 class="mb-3">Responsive Design</h5>
+                             <p class="text-muted mb-0">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                         </div>
+                     </div>
+                     <div class="services-back-flip text-center bg-custom text-white p-5">
+                         <div class="services-desc">
+                             <div class="services-icon">
+                                 <i class="mdi mdi-responsive display-1"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>-->
+<!-- services end -->
+
+<!-- portfolio start -->
+<!--<section class="section" id="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center mb-4 pb-2">
+                    <div class="mb-5">
+                        <i class="mdi mdi-image-filter h1 text-muted"></i>
+                    </div>
+                    <h3>My Portfolio</h3>
+                    <p class="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 pt-2">
+            <ul class="col container-filter categories-filter text-center mb-0" id="filter">
+                <li><a class="categories active" data-filter="*">All</a></li>
+                <li><a class="categories" data-filter=".branding">Branding</a></li>
+                <li><a class="categories" data-filter=".designing">Designing</a></li>
+                <li><a class="categories" data-filter=".photography">Photography</a></li>
+                <li><a class="categories" data-filter=".development">Development</a></li>
+            </ul>
+        </div>
+        &lt;!&ndash; portfolio menu end &ndash;&gt;
+        &lt;!&ndash; Gallary &ndash;&gt;
+        <div class="row container-grid projects-wrapper mt-4 pt-2">
+            <div class="col-lg-4 spacing branding designing development">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="1" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Branding, Design, Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 spacing photography">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="2" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Photo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 spacing branding development">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="4" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Branding, Design, Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 spacing branding designing">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="4" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Branding, Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 spacing branding designing">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="5" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Branding, Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 spacing photography">
+                <div class="item-box mt-2">
+                    <a class="mfp-image" href="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" title="">
+                        <img class="item-container img-fluid mx-auto" src="https://via.placeholder.com/800X600//88929f/5a6270C/O%20https://placeholder.com/" alt="1" />
+                        <div class="item-mask">
+                            <div class="item-caption text-white text-center">
+                                <h5>Project title</h5>
+                                <p class="text-uppercase">Photo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>-->
+<!-- portfolio end -->
+
+<!-- counters start -->
+<section class="section bg-gradient">
+    <div class="container">
+        <div class="row" id="counter">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center p-4 text-white">
+                    <div class="counter-content">
+                        <div class="counter-value mb-3 f-40" data-count="40">12</div>
+                        <h6 class="counter-name text-light font-weight-normal">Happy Clients</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center p-4 text-white">
+                    <div class="counter-content">
+                        <div class="counter-value mb-3 f-40" data-count="4900">2350</div>
+                        <h6 class="counter-name text-custom font-weight-normal">Working Hours</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center p-4 text-white">
+                    <div class="counter-content">
+                        <div class="counter-value mb-3 f-40" data-count="15">2</div>
+                        <h6 class="counter-name text-light font-weight-normal">Active Project</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center p-4 text-white">
+                    <div class="counter-content">
+                        <div class="counter-value mb-3 f-40" data-count="22">9</div>
+                        <h6 class="counter-name text-custom font-weight-normal"> Completed Project</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- counters end -->
+
+<!-- testimonial start -->
+<!--<section class="section bg-light" id="testimonial">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center mb-4 pb-2">
+                    <div class="mb-5">
+                        <i class="mdi mdi-comment-account-outline h1 text-muted"></i>
+                    </div>
+                    <h3>What People Say</h3>
+                    <p class="text-muted mx-auto mb-0 para-desc">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry Ipsum has been the industry
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mt-4 pt-2">
+                <div class="testimonial p-4 bg-white">
+                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        quasi </p>
+                    <h6 class="pt-4 mb-0">Richard Griffin - <small class="text-muted">Co-Founder</small></h6>
+                    <div class="testi-icon">
+                        <i class="mdi mdi-format-quote-open display-3"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 pt-2">
+                <div class="testimonial p-4 bg-white">
+                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</p>
+                    <h6 class="pt-4 mb-0">Henry Thomas - <small class="text-muted">Web Developer</small></h6>
+                    <div class="testi-icon">
+                        <i class="mdi mdi-format-quote-open display-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- testimonial end -->
+
+<!-- blog start -->
+<!-- <section class="section" id="blog">
+     <div class="container">
+         <div class="row justify-content-center">
+             <div class="col-lg-6">
+                 <div class="section-title text-center mb-4 pb-2">
+                     <div class="mb-5">
+                         <i class="mdi mdi-credit-card-multiple h1 text-muted"></i>
+                     </div>
+                     <h3>Latest News</h3>
+                     <p class="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                 <div class="blog bg-light p-4">
+                     <p>Website Design</p>
+                     <h5><a href="#" class="text-dark">Best Personal Template on Themeforest</a></h5>
+                     <p class="mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing typesetting industry. Ipsum has been the industry's</p>
+                     <div class="pt-4">
+                         <a href="#" class="text-custom">Read more <small class="mdi mdi-arrow-right ml-1"></small></a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                 <div class="blog bg-light p-4">
+
+                     <p>WordPress</p>
+                     <h5><a href="#" class="text-dark">WordPress Personal theme on Themeforest</a></h5>
+                     <p class="mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing typesetting industry. Ipsum has been the industry's</p>
+                     <div class="pt-4">
+                         <a href="#" class="text-custom">Read more <small class="mdi mdi-arrow-right ml-1"></small></a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                 <div class="blog bg-light p-4">
+                     <p>Trends</p>
+                     <h5><a href="#" class="text-dark">Exploring 3D & Web Design Trends</a></h5>
+                     <p class="mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing typesetting industry. Ipsum has been the industry's</p>
+                     <div class="pt-4">
+                         <a href="#" class="text-custom">Read more <small class="mdi mdi-arrow-right ml-1"></small></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>-->
+<!-- blog end -->
+
+<!-- contact start -->
+<section class="section contact-wrapper bg-contact" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center mb-4 pb-2">
+                    <div class="mb-5">
+                       <h1>✆</h1>
+                    </div>
+                    <h3 class="text-white">Contact me</h3>
+                    <p class="text-white-50 mx-auto mb-0 para-desc">
+                        Have a question or want to work together?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 mt-4 pt-2">
+                <div class="contact-desc text-center">
+                    <div class="contact-icon mb-3">
+                        <h2>📍</h2>
+                    </div>
+                    <div class="contact-details">
+                        <p class="mb-0">
+                            <a 
+                            target="_blank"
+                            href="https://www.google.com/maps/search/@31.9539,35.9106">
+                            Amman, Jordan
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 pt-2">
+                <div class="contact-desc text-center">
+                    <div class="contact-icon mb-3">
+                       <h2>📞</h2>
+                    </div>
+                    <div class="contact-details">
+                        <p class="mb-0">
+                            <a href="tel:00962791191836" target="_top">
+                                +962 791191836
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 pt-2">
+                <div class="contact-desc text-center">
+                    <div class="contact-icon mb-3">
+                       <h2>📩</h2>
+                    </div>
+                    <div class="contact-details">
+                        <p class="mb-0">
+                            <a href="mailto:mohammed.alshobaki96@gmail.com?Subject=Hello" target="_top">
+                               mohammed.alshobaki96@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/6.5.95/css/materialdesignicons.css" integrity="sha512-x6bCTnc3rzkrdNmyFuJBWwOF23tzxLalBSQ2N3BEYKLWOpjfpYpnBrE0wlRHI/j4Oyv72/VuAewe2DmEl/NXdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <div class="row justify-content-center mt-5 pt-md-4">
+            <div class="col-lg-9">
+                <div class="custom-form kwes-form">
+                    <!-- <div id="message"></div> -->
+                    <!-- <form method="post" action="php/contact.php" name="contact-form" id="contact-form"> -->
+                        <form method="POST" class="kwes-form" action="https://kwesforms.com/api/foreign/forms/7FVUCdc2bBCNMGzqE3zR">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-4">
+                                    <input name="name" id="name" type="text" class="form-control"
+                                          rules="required|max:255"
+                                           placeholder="Your Name...">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-4">
+                                    <input name="email" id="email" type="email" class="form-control"
+                                          rules="required|max:255|email"
+                                           placeholder="Your Email...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group mb-4">
+                                    <input name="subject" id="subject" type="text" class="form-control"
+                                            rules="required|min:1|max:500"
+                                           placeholder="Your Subject...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea name="comments" id="comments" rows="4" class="form-control"
+                                              rules="max:10000"  
+                                              placeholder="Your Message..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 text-right">
+                                <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom"
+                                       value="Send Message">
+                                <div id="simple-msg"></div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- /form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact end -->
+
+<!-- footer start -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center mt-5 mb-5">
+                    <h4 class="mb-4 logo"><a href="#" class="text-dark">Shobaki</a></h4>
+                    <ul class="social-icons mb-4 list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://web.facebook.com/LLoougout/" class="" target="_blank">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/_shobaki" class="" target="_blank">
+                                <i class="mdi mdi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://stackoverflow.com/users/15385528/mohammed-alshobaki?tab=profile" class="" target="_blank">
+                                <img style="    width: 34px;" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" alt="">
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://github.com/mohammedalshobaki" class="" target="_blank">
+                                <img style="    width: 23px;" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/mohammedshobaki/" class="" target="_blank">
+                                <i class="mdi mdi-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <p class="copyright-desc text-muted mb-0">
+                         © 2020-21 Mohammed Alshobaki                         <i class="mdi mdi-heart text-danger"></i>
+                     </p>-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="do-the-thing" style="float: right;position: relative;top:-140px;cursor: pointer">
+        <div class="elevator" >
+            <svg class="sweet-svg" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 version="1.1" x="0px" y="0px"
+                 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" height="100px" width="100px">
+                        <path
+                                d="M70,47.5H30c-1.4,0-2.5,1.1-2.5,2.5v40c0,1.4,1.1,2.5,2.5,2.5h40c1.4,0,2.5-1.1,2.5-2.5V50C72.5,48.6,71.4,47.5,70,47.5z   M47.5,87.5h-5v-25h5V87.5z M57.5,87.5h-5v-25h5V87.5z M67.5,87.5h-5V60c0-1.4-1.1-2.5-2.5-2.5H40c-1.4,0-2.5,1.1-2.5,2.5v27.5h-5  v-35h35V87.5z">
+                       </path>
+                <path d="M50,42.5c1.4,0,2.5-1.1,2.5-2.5V16l5.7,5.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5l-10-10  c-1-1-2.6-1-3.5,0l-10,10c-1,1-1,2.6,0,3.5c1,1,2.6,1,3.5,0l5.7-5.7v24C47.5,41.4,48.6,42.5,50,42.5z"></path>
+                    </svg>
+
+        </div>
+    </div>
+</footer>
+
+<script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
+
+
+<!-- footer end -->
+
+<!-- javascript -->
+<!--<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrollspy.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="js/isotope.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+
+<script src="js/typed.js"></script>
+<script src="js/particles.js"></script>
+-->
+
+<!--
+<script src="plugins/elevator.js/elevator.min.js"></script>
+-->
+<script src="js/particles.js"></script>
+<script src="js/plugin.min.js"></script>
+<!--<script src="js/portfolio.init.js"></script>
+<script src="js/counter.js"></script>-->
+<!-- Typed -->
+<!--<script src="js/typed.js"></script>
+<script src="js/typed.init.js"></script>-->
+
+<!--Partical js-->
+<!--<script src="js/particles.js"></script>
+<script src="js/particles.app.js"></script>-->
+
+<!--<script src="js/app.js"></script>
+<script src="js/contact.js"></script>-->
+<script src="js/app.min.js"></script>
+
+<script>
+    // Elevator script included on the page, already.
+
+    window.onload = function() {
+        var elevator = new Elevator({
+            element: document.querySelector('.elevator'),
+            mainAudio: './music/elevator.mp3',
+            endAudio: './music/ding.mp3',
+           /* startCallback: function() {
+                //alert('start called')
+                // is called, when the elevator starts moving
+            },
+            endCallback: function() {
+               // alret('end called');
+                // is called, when the elevator reached target level
+            }*/
+        });
+    }
+</script>
+
+<!-- custom -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+            let app = firebase.app();
+            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+            document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+            console.error(e);
+            document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+    });
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Mohammed Alshobaki",
+        "url": "https://Shobakijoisar.web.app/",
+        "address": "",
+        "sameAs": [
+            "https://www.facebook.com/joisarShobaki",
+            "https://twitter.com/joisarShobaki",
+            "https://github.com/joisarShobaki",
+            "https://stackoverflow.com/users/4101154/Shobaki-joisar",
+            "https://www.linkedin.com/in/joisarShobaki"
+        ]
+    }
+</script>
+
+<script>
+let kwesScript = document.createElement('script')
+
+kwesScript.setAttribute('src', 'https://kwes.io/js/kwes.js')
+
+document.head.appendChild(kwesScript)
+</script>
+
+<!-- <script src="https://kwes.io/js/kwes.js"></script> -->
+</body>
+</html>
